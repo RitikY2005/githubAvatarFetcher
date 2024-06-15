@@ -1,0 +1,48 @@
+.avatar-card-container{
+	margin:20px 0px;
+	padding:  20px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap:10px;
+
+}
+
+.avatar-card{
+	flex-basis: 20%;
+	border:2px solid white;
+	border-radius: 10px;
+	padding:5px;
+	
+	transition: all 0.3s ease-in-out;
+	
+}
+
+.avatar-card a{
+	text-decoration: none;
+	cursor: pointer;
+	color:white;
+}
+
+.avatar-card img{
+	width: 100%;
+	border-radius:10px;
+}
+
+.pagination-controls{
+	text-align: center;
+	margin:10px;
+}
+
+.pagination-controls button{
+	border:none;
+	outline:none;
+	cursor:pointer;
+	padding:10px 15px;
+	background-color: white;
+	border-radius: 4px;
+	color:darkviolet;
+	font-weight: bold;
+}
